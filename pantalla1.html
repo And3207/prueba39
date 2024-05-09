@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner Escolar</title>
+    <link rel="stylesheet" href="pantalla1.css">
+</head>
+<body>
+    <div class="menu" id="btn">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+    <div class="barra-lateral">
+        <div>
+            <div class="nombre-pagina">
+                <ion-icon id="codigo" name="qr-code-outline"></ion-icon>
+                <span>Scanner Escolar</span>
+            </div>
+            <a href="registro.html"><button class="boton">
+                <ion-icon name="add-outline"></ion-icon>
+                <span>Nuevo Registro</span>
+            </button>
+            </a>
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a href="https://calendar.google.com/calendar/u/0/r?pli=1">
+                        <ion-icon name="calendar-number-outline"></ion-icon>
+                        <span>Calendario</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <span>Alumnos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <ion-icon name="clipboard-outline"></ion-icon>
+                        <span>Listas</span>
+                    </a>
+                </li>
+                <div class="linea"></div>
+                <li>
+                    <a href="#">
+                        <ion-icon name="help-outline"></ion-icon>
+                        <span>Sistema</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5215519732223">
+                    <ion-icon name="call-outline"></ion-icon>
+                        <span>Soporte Técnico</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="information-circle-outline"></ion-icon>
+                        <span>Acerca De</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="configuracion.html">
+                        <ion-icon name="settings-outline"></ion-icon>
+                        <span>Configuración</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+       <div>
+        <div class="linea"></div>
+        <div class="modo-oscuro">
+            <div class="info">
+                <ion-icon name="moon-outline"></ion-icon>
+                <span>Drak Mode</span>
+            </div>
+            <div class="switch">
+                <div class="base">
+                    <div class="circulo">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="parte2">
+        <main class="table" id="customers_table">
+            <section class="table__header">
+                <h1>Asistencias</h1>
+                <div class="input-group">
+                    <input type="search" placeholder="Buscar...">
+                    <img src="images/search.png" alt="">
+                </div>
+                <div class="export__file">
+                    <label for="export-file" class="export__file-btn" title="Export File"></label>
+                    <input type="checkbox" id="export-file">
+                    <div class="export__file-options">
+                        <label>Exportar &nbsp; &#10140;</label>
+                        <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                        <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                        <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                        <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                    </div>
+                </div>
+            </section>
+            <section class="table__body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Número de control <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Nombre <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Género <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Carrera <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Fecha <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Hora_E <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Hora_S <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Turno <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                            <th> Grupo <!--<span class="icon-arrow">&UpArrow;</span>--></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1 </td>
+                            <td> Carcaño Linares Omar Andre</td>
+                            <td> Masculino </td>
+                            <td> Programación </td>
+                            <td>
+                              
+                            </td>
+                            <td> <strong> 00:00 AM </strong></td>
+                            <td>00:00 PM</td>
+                            <td>Matutino</td>
+                            <td>405</td>
+                        </tr>
+                        <tr>
+                            <td> 2 </td>
+                            <td>Jeet Saru </td>
+                            <td> Kathmandu </td>
+                            <td> 27 Aug, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>00:00 AM</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 3</td>
+                            <td> Sonal Gharti </td>
+                            <td> Tokyo </td>
+                            <td> 14 Mar, 2023 </td>
+                            <td>
+                              
+                            </td>
+                            <td> <strong>$210.40</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 4</td>
+                            <td> Alson GC </td>
+                            <td> New Delhi </td>
+                            <td> 25 May, 2023 </td>
+                            <td>
+                              
+                            </td>
+                            <td> <strong>$149.70</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 5</td>
+                            <td> Sarita Limbu </td>
+                            <td> Paris </td>
+                            <td> 23 Apr, 2023 </td>
+                            <td>
+                              
+                            </td>
+                            <td> <strong>$399.99</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 6</td>
+                            <td> Alex Gonley </td>
+                            <td> London </td>
+                            <td> 23 Apr, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>$399.99</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 7</td>
+                            <td> Jeet Saru </td>
+                            <td> New York </td>
+                            <td> 20 May, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>$399.99</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 8</td>
+                            <td> Aayat Ali Khan </td>
+                            <td> Islamabad </td>
+                            <td> 30 Feb, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>$149.70</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 9</td>
+                            <td> Alson GC </td>
+                            <td> Dhaka </td>
+                            <td> 22 Dec, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>$249.99</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 10</td>
+                            <td> Alson GC </td>
+                            <td> Dhaka </td>
+                            <td> 22 Dec, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>$249.99</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 11</td>
+                            <td> Alson GC </td>
+                            <td> Dhaka </td>
+                            <td> 22 Dec, 2023 </td>
+                            <td>
+                              
+                            </td>
+                            <td> <strong>$249.99</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 12</td>
+                            <td> Alson GC </td>
+                            <td> Dhaka </td>
+                            <td> 22 Dec, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>$249.99</strong> </td>
+                        </tr>
+                        <tr>
+                            <td> 13</td>
+                            <td> Alson GC </td>
+                            <td> Dhaka </td>
+                            <td> 22 Dec, 2023 </td>
+                            <td>
+                               
+                            </td>
+                            <td> <strong>$249.99</strong> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="tabla.js"></script>
+    
+    </div>
+
+<script type="module" src ="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+<script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+<script src="pantalla1.js"></script>
+
+</body>
+</html>
